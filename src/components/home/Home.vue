@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>Welcome to your Project</h1>
+    <h1>Welcome to My Project</h1>
   </section>
 </template>
 
