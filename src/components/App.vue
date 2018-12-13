@@ -8,7 +8,6 @@
 
 <script>
 import api from '../services/api';
-
 export default {
   data() {
     return {
