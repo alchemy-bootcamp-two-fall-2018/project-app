@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <Home />
+    <RouterView></RouterView>
+    {{result}}
   </div>
 </template>
 
 <script>
-import Home from './home/Home.vue';
+import api from '../services/api';
 export default {
-  components: {
-    Home
+  data() {
+    return {
+      result: null
+    };
+  },
+  created() {
+    api.test()
+      .then(result => this.result = result);
   }
 };
 </script>
