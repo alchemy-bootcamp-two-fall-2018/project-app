@@ -10,7 +10,7 @@
     "build:prod": "npm run build && rm -rf ../project-server/public && cp -R dist ../project-server/public"
   },
   "dependencies": {
-    "vue": "^2.5.17",
+    "vue": "^2.5.21",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
