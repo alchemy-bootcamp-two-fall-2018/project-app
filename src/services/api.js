@@ -1,6 +1,6 @@
 export default {
-  test() {
-    return fetch('/api')
+  getTwitchFeed() {
+    return fetch('/api/twitch')
       .then(response => response.json());
   }
 };
